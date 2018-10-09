@@ -1,6 +1,9 @@
-from bottle import *
+
 from sys import argv
-import json, urllib.request
+from bottle import *
+import json
+# https://docs.python.org/3/library/urllib.html
+import urllib.request, json
 
 info = {'title':'Elsneytis Fyrirtæki','companies':[],'all_prices_bensin95':[],'all_prices_diesel':[],'all_locations':[]}
 
